@@ -1,6 +1,6 @@
 "use client";
 
-import Hero3 from "../public/hero3.jpg";
+import Hero3 from "../public/hero.png";
 import Image from "next/image";
 import { ArrowRightIcon } from "lucide-react";
 import Link from "next/link";
@@ -19,10 +19,11 @@ const Hero = () => {
 
       <div className="relative container px-2 md:px-4 mx-auto  flex flex-col gap-6 items-center justify-center z-[1] ">
         <h1 className="text-primary md:text-7xl text-xl font-bold px-4">
-          Šlep služba Čačak
+          INSTITUT LIRA NIŠ
         </h1>
         <h2 className="text-muted font-medium md:text-5xl text-md">
-          Od 0 do 24h, sedam dana u nedelji!
+          Privredno društvo za bezbednost i zdravlje na radu, zaštitu životne
+          sredine, zaštitu od požara, istraživanje, projektovanje i obrazovanje
         </h2>
         <div className="flex flex-col gap-4 md:flex-row">
           <Link href="/proizvodi">

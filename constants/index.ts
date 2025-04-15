@@ -17,26 +17,26 @@ export const navList = [
     title: "Usluge",
     list: [
       {
-        title: "Kuhinje",
+        title: "Bezbednost i zdravlje na radu",
         link: "",
       },
       {
-        title: "Plakari",
+        title: "Zaštita životne sredine",
         link: "",
       },
       {
-        title: "TV Komode",
+        title: "Zaštita od požara",
         link: "",
       },
       {
-        title: "Projektovanje Enterijera",
+        title: "Vanredne situacije",
+        link: "",
+      },
+      {
+        title: "Priprema dokumentacije iz radnih odnosa",
         link: "",
       },
     ],
-  },
-  {
-    title: "Proizvodi",
-    link: "/proizvodi",
   },
   {
     title: "Kontakt",
@@ -47,45 +47,28 @@ export const navList = [
 export interface WorkList {
   id: number;
   title: string;
-  text: string;
 }
 
 export const workList = [
   {
     id: 1,
-    title: "Grupni treninzi",
-    text: "Oblikuj svoje telo i poboljšaj kondiciju uz dinamične grupne treninge! Vežbaj u motivišućem okruženju, uz stručno vođstvo i podršku tima. Pridruži se i zajedno postižemo ciljeve!",
-    icon: IoIosPeople,
+    title: "Bezbednost i zdravlje na radu",
   },
   {
     id: 2,
-    title: "Individualni treninzi",
-    text: "Ostvari maksimalne rezultate uz personalizovane individualne treninge! Treniraj prema svom tempu, uz stručnu podršku i plan prilagođen tvojim ciljevima. Fokus je na tebi!",
-    icon: IoIosPerson,
+    title: "Zaštita životne sredine",
   },
   {
     id: 3,
-    title: "Pilates",
-    text: "Poboljšaj fleksibilnost, snagu i držanje uz pilates treninge! Uz kontrolisane pokrete i fokus na disanje, oblikuj telo i oslobodi se stresa. Idealno za sve nivoe kondicije!",
-    icon: IoFitnessOutline,
+    title: "Zaštita od požara",
   },
   {
     id: 4,
-    title: "Body power",
-    text: "Ojačaj mišiće i poboljšaj izdržljivost uz intenzivan trening snage! Kombinacija tegova i funkcionalnih vežbi pomoći će ti da postigneš vrhunsku formu.",
-    icon: GiWeightLiftingUp,
+    title: "Vanredne situacije",
   },
   {
     id: 5,
-    title: "Mix-fit",
-    text: " Dinamičan spoj kardio i snage za maksimalne rezultate! Raznovrsni pokreti, visoka energija i zabavna atmosfera čine svaki trening izazovnim i efektivnim.",
-    icon: MdOutlineSportsGymnastics,
-  },
-  {
-    id: 6,
-    title: "Aeronix",
-    text: "Spoj aerobnih vežbi i funkcionalnog treninga za bolju kondiciju i oblikovanje tela! Povećaj izdržljivost, sagori kalorije i uživaj u energičnom ritmu vežbanja.",
-    icon: PiRocketLaunchBold,
+    title: "Priprema dokumentacije iz radnih odnosa",
   },
 ];
 
