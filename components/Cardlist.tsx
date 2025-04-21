@@ -3,7 +3,7 @@
 import React from "react";
 import { tim } from "@/constants/index";
 import { motion } from "framer-motion";
-import { Card, CardContent, CardHeader } from "./ui/card";
+import { Card, CardContent } from "./ui/card";
 import Image from "@/node_modules/next/image";
 
 const Cardlist = () => {
