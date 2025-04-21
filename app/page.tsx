@@ -1,26 +1,23 @@
 import About from "@/components/About";
 import BackgroundImage from "@/components/BackgroundImage";
 import Cardlist from "@/components/Cardlist";
-import Cards1 from "@/components/Cards1";
-import Cards2 from "@/components/Cards2";
-import Cards2Kosina from "@/components/Cards2Kosina";
-import CardWithImage from "@/components/CardWithImage";
+import CardsList from "@/components/CardsList";
 import HeroOneImg from "@/components/HeroOneImg";
-import PozoviteNasOdmah from "@/components/PozoviteNasOdmah";
+import HomePage from "@/components/HomePage";
 import PozoviteNasOdmahImage from "@/components/PozoviteNasOdmahImage";
-import Testemonials from "@/components/Testimonials";
-import { cards1Data, cards2Data, cards2DataText } from "@/constants/index";
+import References from "@/components/References";
 
 export default function Home() {
   return (
     <div className="">
       <HeroOneImg />
+      <HomePage />
       <About />
       <Cardlist />
-      <PozoviteNasOdmah />
-      <CardWithImage />
+      <CardsList />
       <PozoviteNasOdmahImage />
-      <Cards1 title={"dodaj naslov"} data={cards1Data} />
+      <References />
+      {/* <Cards1 title={"dodaj naslov"} data={cards1Data} />
       <Cards2
         title={"Elektroinstalacije i elektro ormani"}
         data={cards2Data}
@@ -30,9 +27,8 @@ export default function Home() {
         title={"Elektroinstalacije i elektro ormani"}
         data={cards2Data}
         text={cards2DataText}
-      />
+      /> */}
       <BackgroundImage />
-      <Testemonials />
     </div>
   );
 }

@@ -1,20 +1,19 @@
 "use client";
 
 import React from "react";
-import { workList } from "@/constants/index";
+import { tim } from "@/constants/index";
 import { motion } from "framer-motion";
-import { Card, CardHeader, CardTitle, CardContent } from "./ui/card";
+import { Card, CardContent, CardHeader } from "./ui/card";
+import Image from "@/node_modules/next/image";
 
 const Cardlist = () => {
   return (
     <div className="py-20">
       <div className="container px-2 md:px-40 mx-auto space-y-10">
-        <h2 className="text-6xl text-primary text-center  font-gagalin">
-          Nama se možete obratiti za:
-        </h2>
+        <h2 className="text-6xl text-primary text-center">Naš Tim</h2>
 
         <div className=" flex flex-col gap-4 md:gap-4 overflow-hidden">
-          {workList.map((item, index) => {
+          {tim.map((item, index) => {
             return (
               <motion.div
                 key={index}
@@ -35,21 +34,19 @@ const Cardlist = () => {
                     <polygon points="0,0 200,160 0,160 0,160" fill="#f5f5f5" />
                   </svg>
 
-                  <svg
-                    className="absolute top-0 right-0 w-1/2 h-full text-card"
-                    viewBox="0 0 256 150"
-                    preserveAspectRatio="none"
-                  >
-                    <polygon
-                      points="256,0 56,160 256,160 256,160"
-                      fill="#f5f5f5"
+                  <CardContent className="flex items-center justify-around">
+                    <div className=" z-10">
+                      <h3 className="md:py-10">{item.name}</h3>
+                      <p>{item.title}</p>
+                    </div>
+                    <Image
+                      src={item.image}
+                      width={500}
+                      height={500}
+                      alt={"zastita na radu"}
+                      className="rounded-full object-cover w-[250px] h-[250px]"
                     />
-                  </svg>
-                  <CardHeader>
-                    <p className=" text-center relative z-5 text-2xl md:text-4xl items-center text-primary">
-                      {item.title}
-                    </p>
-                  </CardHeader>
+                  </CardContent>
                 </Card>
               </motion.div>
             );

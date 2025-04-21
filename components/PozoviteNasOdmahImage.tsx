@@ -7,28 +7,27 @@ import { FaRegCircleCheck } from "react-icons/fa6";
 
 const PozoviteNasOdmah = () => {
   return (
-    <div className="bg-foreground text-muted pt-10">
-      <div className="container px-2 md:px-4 mx-auto font-bold flex flex-col-reverse md:flex-row justify-center items-center gap-10 md:gap-20">
+    <div className="bg-primary text-muted pt-4 md:pt-0">
+      <div className="container px-2 md:px-4 mx-auto font-bold flex flex-col-reverse md:flex-row justify-center items-center gap-0 md:gap-20">
         <Image
-          src={"/slep puric.jpg"}
+          src={"/man-9020932_640.png"}
           width={250}
           height={200}
-          alt="puric slep"
-          className="rounded-t-xl"
+          alt="ali i pvc stolarija"
+          className="rounded-t-xl w-[170px] md:w-[250px]"
         />
         <div className="flex flex-col gap-6 text-center md:text-left">
           <div>
-            <h2 className="text-4xl text-primary py-3">
-              <FaRegCircleCheck className="mb-4 text-6xl bg-muted-foreground rounded-full mx-auto md:mx-0" />
-              Potreban vam je transport i šlep vašeg vozila?
+            <h2 className=" text-xl md:text-3xl text-white">
+              Kontaktirajte nas ukoliko želite besplatnu procenu, savet ili
+              ponudu
             </h2>
-            <p className="text-3xl">Šlep služba Purić Čačak</p>
           </div>
           <a href="tel:+381659480700">
             <motion.button
               whileHover={{ translateY: "-5px" }}
               whileTap={{ scale: 0.95 }}
-              className=" mx-auto md:mx-0 text-nowrap flex gap-3 text-3xl items-center text-primary bg-muted rounded-lg px-4 md:px-8 md:py-3 py-2"
+              className=" mx-auto md:mx-0 text-nowrap flex gap-3 text-xl md:text-3xl items-center text-primary bg-muted rounded-lg px-4 md:px-8 md:py-2 py-2"
             >
               <PhoneIcon /> Pozovite odmah
             </motion.button>

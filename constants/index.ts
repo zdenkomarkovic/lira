@@ -1,11 +1,5 @@
 import { IconType } from "react-icons";
-import { GiWeightLiftingUp } from "react-icons/gi";
 import { GiWeight } from "react-icons/gi";
-import { IoFitnessOutline } from "react-icons/io5";
-import { MdOutlineSportsGymnastics } from "react-icons/md";
-import { IoIosPeople } from "react-icons/io";
-import { IoIosPerson } from "react-icons/io";
-import { PiRocketLaunchBold } from "react-icons/pi";
 import { LuTimerReset } from "react-icons/lu";
 
 export const navList = [
@@ -69,6 +63,75 @@ export const workList = [
   {
     id: 5,
     title: "Priprema dokumentacije iz radnih odnosa",
+  },
+];
+
+export interface PageData {
+  image: string;
+  title: string;
+  route: string;
+  description: string[];
+  text: string;
+}
+
+export const pageData: PageData[] = [
+  {
+    image: "/zastitanaradu.jpeg",
+    title: "Bezbednost i zdravlje na radu",
+    route: "/zastitanaradu",
+    description: [
+      "Akt o proceni rizika na radnom mestu i u radnoj okolini",
+      "Zakonom predviđen Obrazac br.6",
+      "Program, Pravilnik, Evidencije o bezbednosti i zdravlja na radu 1-11 ",
+      "Obuka za bezbedan i zdrav rad kod zasnivanja radnog odnosa, premeštaja na druge poslove, kod promene tehnologije ili radnog procesa",
+      "Prati primenu mera bezbednosti i zdravlja na radu kod pravnog lica",
+      "Druga dokumenta predviđena Zakonom",
+      "Organizuje preventivne preglede opreme za rad",
+      "Organizuje preglede električnih instalacija i uslova radne sredine",
+      "Upućuje zaposlene na lekarske preglede i organizuje polaganje za pružanje prve pomoći",
+    ],
+    text: "Lice za bezbednost i zdravlje na radu – savetnik/saradnik zastupa poslodavca pred inspekcijskim organima – inspekcija rada",
+  },
+  {
+    image: "/zastitazivotnesredine.jpg",
+    title: "Zaštita životne sredine",
+    route: "/zastitazivotnesredine",
+    description: [
+      "Izrada Plana upravljanje otpadom",
+      "Izrada zahteva za integrisanu dozvolu",
+      "Izveštavanje agenciji o kretanju otpada (dnevni, nedeljni, mesečni i godišni izveštaj)",
+    ],
+    text: "",
+  },
+  {
+    image: "/zastitaodpozara1.jpg",
+    title: "Zaštita od požara",
+    route: "/zastitaodpozara",
+    description: [
+      "Izrada Plana zaštite od požara",
+      "Izrada Pravilnika o zaštiti od požara",
+      "Izrada Programa obuke za zaposlene",
+      "Obuka zaposlenih iz zaštite od požara",
+    ],
+    text: "",
+  },
+
+  {
+    image: "/vanrednesituacije.jpg",
+    title: "Vanredne situacije",
+    route: "/vanrednesituacije",
+    description: [
+      "Izrada plana zaštite od udesa",
+      "Izrada plana od katastrofa",
+    ],
+    text: "",
+  },
+  {
+    image: "/pripremadokumentacije.jpg",
+    title: "Priprema dokumentacije iz radnih odnosa",
+    route: "/pripremadokumentacije",
+    description: ["Izrada odluka,", "Izrada Rešenja", "Sistematizacija"],
+    text: "",
   },
 ];
 
@@ -255,3 +318,134 @@ export interface Cards2DataText {
 export const cards2DataText: Cards2DataText = {
   text: "Pružamo usluge izrade, montaže i održavanja elektro ormana za domaćinstva, poslovne prostore i industrijska postrojenja. Naš tim vodi računa o kvalitetu instalacija i bezbednosti sistema, uz poštovanje svih standarda i propisa.",
 };
+
+export interface Reference {
+  title: string;
+  img: string;
+}
+
+export const reference: Reference[] = [
+  {
+    title: "Aerodromi Srbije",
+    img: "/logo-aerodromi-srbije-lat.png",
+  },
+  {
+    title: "JKP NAISSUS NIŠ",
+    img: "/LOGO.svg",
+  },
+  {
+    title: "JKP MEDIANA NIŠ",
+    img: "/logo_m.png",
+  },
+  {
+    title: "PARKING SERVIS NIŠ",
+    img: "/logolong.png",
+  },
+  {
+    title: "EKO SRBIJA BEOGRAD (na teritoriji cele Srbije)",
+    img: "/logo.png",
+  },
+  {
+    title: "ZORAN REISEN JAGODINA",
+    img: "/Zoran-Reisen-logo.png",
+  },
+  {
+    title: "OPŠTINA MEDIJANA NIŠ",
+    img: "/logo (1).png",
+  },
+  {
+    title: "OPŠTINA BELA PALANKA",
+    img: "/logo (2).png",
+  },
+  {
+    title: "OPŠTINA BABUŠNICA",
+    img: "/10101010.png",
+  },
+  {
+    title: "Zdravstveni centar KNJAŽEVAC - Dom zrdavlja, bolnica i hitna pomoć",
+    img: "/logo100px1.jpg",
+  },
+  {
+    title: "HABAU SRL OGRANAK BEOGRAD",
+    img: "/habau_pps_pipeline_systems_logo.jpeg",
+  },
+  {
+    title: "MIKKELSEN ELECTRONICS DOO NIŠ",
+    img: "/eb0d45a6-4ce7-4b3f-8977-7ad7a69fa543-extent-thumbnail.jpg",
+  },
+  {
+    title: "SPINTEC PRECISION DOO Niš",
+    img: "/Spintec logo white.avif",
+  },
+  {
+    title: "JKP GRDELICA-GRDELICA",
+    img: "/grdelica.png",
+  },
+  {
+    title: "POMETON DOO Bor",
+    img: "/pometon_spa_logo.jpeg",
+  },
+  {
+    title: "MARKO & CO BEOGRAD 1990",
+    img: "/Marco_Co_-_Logo-1.png",
+  },
+
+  {
+    title: "CENTROPAK DOO ALEKSANDROVO",
+    img: "/cropped-logo-1.png",
+  },
+  {
+    title: "LAMBINO PLUS DOO STARA PAZOVA",
+    img: "/logo-mali.png.webp",
+  },
+  {
+    title: "CENTAR ZA DNEVNI BORAVAK DECE OMETENE U RAZVOJU MARA NIŠ",
+    img: "/Logo-novi-mara-2.png",
+  },
+  {
+    title: "MAKSI CO DONJI ADROVAC",
+    img: "/logoOnly.png",
+  },
+  {
+    title: "ZOREX PHFARM ŠABAC",
+    img: "/zorexpharma-logo.svg",
+  },
+  {
+    title: "CENTAR ZA SOCIJANI RAD SURDULICA",
+    img: "/surdulica-logo.png",
+  },
+];
+
+export interface Tim {
+  name: string;
+  title: string;
+  image: string;
+}
+
+export const tim: Tim[] = [
+  {
+    name: "Marina Mitrovic",
+    title: "Diplomirani inženjer zaštite na radu",
+    image: "/slep puric.jpg",
+  },
+  {
+    name: "Marina Mitrovic",
+    title: "Diplomirani inženjer zaštite na radu",
+    image: "/slep puric.jpg",
+  },
+  {
+    name: "Marina Mitrovic",
+    title: "Diplomirani inženjer zaštite na radu",
+    image: "/slep puric.jpg",
+  },
+  {
+    name: "Marina Mitrovic",
+    title: "Diplomirani inženjer zaštite na radu",
+    image: "/slep puric.jpg",
+  },
+  {
+    name: "Marina Mitrovic",
+    title: "Diplomirani inženjer zaštite na radu",
+    image: "/slep puric.jpg",
+  },
+];

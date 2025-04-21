@@ -12,16 +12,16 @@ const Hero = () => {
       <div className="absolute top-0 left-0 w-full h-full bg-black/20 z-[1]" />
       <Image
         src={Hero3}
-        alt="slep puric"
+        alt="zastita na radu"
         fill
         className="w-full h-[100dvh] object-cover"
       />
 
-      <div className="relative container px-2 md:px-4 mx-auto  flex flex-col gap-6 items-center justify-center z-[1] ">
+      <div className="relative container px-2 md:px-4 mx-auto text-center flex flex-col gap-6 items-center justify-center z-[1] ">
         <h1 className="text-primary md:text-7xl text-xl font-bold px-4">
           INSTITUT LIRA NIŠ
         </h1>
-        <h2 className="text-muted font-medium md:text-5xl text-md">
+        <h2 className="text-muted font-medium text-md md:text-4xl">
           Privredno društvo za bezbednost i zdravlje na radu, zaštitu životne
           sredine, zaštitu od požara, istraživanje, projektovanje i obrazovanje
         </h2>
