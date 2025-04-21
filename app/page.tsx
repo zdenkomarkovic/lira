@@ -1,6 +1,5 @@
 import About from "@/components/About";
 import Cardlist from "@/components/Cardlist";
-import Cards2 from "@/components/Cards2";
 import Cards2Kosina from "@/components/Cards2Kosina";
 import CardsList from "@/components/CardsList";
 import HeroOneImg from "@/components/HeroOneImg";
