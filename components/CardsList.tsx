@@ -46,7 +46,7 @@ const CardsList = () => {
 
 export default CardsList;
 
-const Card = ({ data }: PageData) => {
+const Card = ({ data }: { data: PageData }) => {
   return (
     <motion.div
       whileInView={{ y: [100, 50, 0], opacity: [0, 0.5, 1] }}

@@ -59,7 +59,7 @@ export default function Contact() {
     <div className="">
       <div className="container mx-auto pt-28 pb-16 px-6 md:px-8 md:py-32 space-y-12 md:space-y-24">
         <h1 className="text-2xl md:text-5xl pl-2 md:px-32">
-          Kontakt starter manikam
+          Institut Lira Niš - zaštita na radu
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
           <div className=" mx-2 md:mx-20">
@@ -127,10 +127,10 @@ export default function Contact() {
             </div>
             <div className="pl-4 md:pl-7 pt-4 lg:pt-12"></div>
           </div>
-          <div className="mx-2 md:mx-20 rounded-3xl ">
+          <div className="mx-2 md:mx-20 ">
             <Form {...form}>
               <form
-                className="grid grid-cols-3 items-center p-4 lg:p-10 shadow-xl shadow-primary rounded-xl"
+                className="grid grid-cols-3 items-center p-4 lg:p-10 shadow-xl shadow-primary"
                 onSubmit={form.handleSubmit(onSubmit)}
               >
                 <div className="col-span-3 flex flex-col gap-4 lg:col-span-3 lg:gap-8">
@@ -224,7 +224,7 @@ export default function Contact() {
           style={{ border: "0" }}
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          className="w-full rounded-2xl"
+          className="w-full"
         ></iframe>
       </div>
     </div>
