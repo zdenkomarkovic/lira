@@ -26,7 +26,7 @@ const PozoviteNasOdmah = () => {
             <motion.button
               whileHover={{ translateY: "-5px" }}
               whileTap={{ scale: 0.95 }}
-              className=" mx-auto md:mx-0 text-nowrap flex gap-3 text-xl md:text-3xl items-center text-primary bg-muted rounded-lg px-4 md:px-8 md:py-2 py-2"
+              className=" mx-auto md:mx-0 text-nowrap flex gap-3 text-xl md:text-3xl items-center text-primary bg-white rounded-lg px-4 md:px-8 md:py-2 py-2"
             >
               <PhoneIcon /> Pozovite odmah
             </motion.button>

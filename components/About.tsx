@@ -29,7 +29,6 @@ const About = () => {
       <p className=" first-letter:pl-6">
         Posedujemo licencu od strane Ministarstva za rad, zapošljavanje, boračka
         i socijalna pitanja br. 164-02-00117/2024-01od 03.09.2024.{" "}
-        <span className="block">Vidi vise...</span>
       </p>
       <p className=" first-letter:pl-6">
         Sedište instituta se nalazi u Nišu na adresi Todora Milovanovića 9,

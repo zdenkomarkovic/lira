@@ -295,19 +295,25 @@ export const cards2Data: Cards2Data[] = [
   {
     id: 1,
     icon: GiWeight,
-    title: "Elektroinstalacije",
+    title: "Licencirani stručnjaci",
     text: "",
   },
   {
     id: 2,
     icon: GiWeight,
-    title: "Elektro ormani",
+    title: "Brza i efikasna usluga",
     text: "",
   },
   {
     id: 3,
     icon: GiWeight,
-    title: "Industrijski elektro ormani",
+    title: "Iskustvo sa preko 200 firmi",
+    text: "",
+  },
+  {
+    id: 4,
+    icon: GiWeight,
+    title: "Nacionalna pokrivenost",
     text: "",
   },
 ];

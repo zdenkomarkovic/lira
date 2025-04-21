@@ -8,11 +8,11 @@ import Image from "@/node_modules/next/image";
 
 const Cardlist = () => {
   return (
-    <div className="py-20">
-      <div className="container px-2 md:px-40 mx-auto space-y-10">
-        <h2 className="text-6xl text-primary text-center">Naš Tim</h2>
+    <div className="">
+      <div className="container px-2 md:px-40 mx-auto py-7 md:py-12 space-y-10 border-t border-primary">
+        <h2 className="">Naš Tim</h2>
 
-        <div className=" flex flex-col gap-4 md:gap-4 overflow-hidden">
+        <div className=" flex flex-col gap-4 md:gap-4">
           {tim.map((item, index) => {
             return (
               <motion.div
@@ -21,11 +21,15 @@ const Cardlist = () => {
                 whileInView={{ x: 0, opacity: 1 }} // Animira se ka centru
                 transition={{ duration: 0.8, ease: "easeOut" }}
                 viewport={{ once: true }}
+                whileHover={{
+                  scale: 1.05,
+                }}
+                whileTap={{ scale: 0.95 }}
                 className={`flex ${
                   index % 2 === 0 ? "justify-start" : "justify-end"
                 } w-full`}
               >
-                <Card className="w-full  md:w-3/4 shadow-lg relative overflow-hidden  bg-white">
+                <Card className="w-full  md:w-3/4 shadow-lg relative overflow-hidden">
                   <svg
                     className="absolute top-0 left-0 w-1/2 h-full text-card"
                     viewBox="0 0 256 150"
@@ -44,7 +48,7 @@ const Cardlist = () => {
                       width={500}
                       height={500}
                       alt={"zastita na radu"}
-                      className="rounded-full object-cover w-[250px] h-[250px]"
+                      className="rounded-full object-cover w-[100px] h-[100px] md:w-[200px] md:h-[200px]"
                     />
                   </CardContent>
                 </Card>

@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const References = () => {
   return (
     <div className="">
-      <div className="container px-6 mx-auto border-t text-center text-primary py-10 space-y-16">
+      <div className="container px-6 mx-auto border-t text-center text-primary py-7 md:py-12 space-y-5 md:space-y-10">
         <h2 className="">Reference</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">

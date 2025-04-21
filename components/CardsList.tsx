@@ -6,10 +6,10 @@ import Image from "@/node_modules/next/image";
 
 const CardsList = () => {
   return (
-    <div className="container px-2 md:px-40 mx-auto py-20 border-t space-y-10">
+    <div className="container px-2 md:px-40 mx-auto py-7 md:py-12 border-t border-primary space-y-5 md:space-y-10">
       <h2 className="">Šta to mi radimo za vas?</h2>
 
-      <div className=" grid grid-cols-6 gap-6 items-strech">
+      <div className=" grid md:grid-cols-6 gap-6 md:items-strech">
         {pageData.map((card, index) => {
           if (index < 3) {
             return (
@@ -21,7 +21,7 @@ const CardsList = () => {
           if (index === 3) {
             return (
               <>
-                <div></div>
+                <div className="hidden md:block"></div>
                 <Link key={index} href={card.route} className="col-span-2">
                   <Card data={card} />
                 </Link>
@@ -34,7 +34,7 @@ const CardsList = () => {
                 <Link key={index} href={card.route} className="col-span-2">
                   <Card data={card} />
                 </Link>
-                <div></div>
+                <div className="hidden md:block"></div>
               </>
             );
           }
@@ -55,6 +55,7 @@ const Card = ({ data }: { data: PageData }) => {
         scale: 1.05,
       }}
       whileTap={{ scale: 0.95 }}
+      id={"usluge"}
       className="h-full flex flex-col shadow-2xl shadow-muted-foreground"
     >
       <Image
@@ -65,7 +66,9 @@ const Card = ({ data }: { data: PageData }) => {
         className="w-full aspect-[4/3] object-cover"
       />
       <div className="p-3 flex flex-col justify-between grow">
-        <h3 className="text-primary py-2 font-bold">{data.title}</h3>
+        <h3 className="text-primary py-2 font-bold text-2xl md:text-3xl">
+          {data.title}
+        </h3>
         <p className="text-right">saznaj više...</p>
       </div>
     </motion.div>

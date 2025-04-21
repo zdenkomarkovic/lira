@@ -44,29 +44,29 @@ export default function Footer() {
           <div className="space-y-3 pb-5 md:pb-0">
             <div>
               {" "}
-              <a href="tel:+38160 000 000">
+              <a href="tel:+38162480690">
                 <p className="text-muted-foreground  hover:text-primary">
-                  Telefon: +38160 000 000
+                  Telefon: +381 62 480690
                 </p>
               </a>
             </div>
             <div>
-              <a href="mailto:" target={"_blank"}>
+              <a href="mailto:institutlira@gmail.com" target={"_blank"}>
                 <p className="text-muted-foreground text-wrap  hover:text-primary">
-                  Email: starter mail
+                  Email: institutlira@gmail.com
                 </p>
               </a>
             </div>
             <div className="flex space-x-4 justify-center md:justify-start">
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=100064303204165&locale=sr_RS"
                 target={"_blank"}
                 className="text-muted-foreground hover:text-primary"
               >
                 <Facebook />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/institutlira/"
                 target={"_blank"}
                 className="text-muted-foreground hover:text-primary"
               >
@@ -76,15 +76,15 @@ export default function Footer() {
           </div>
           <div className="md:col-span-1 col-span-2 text-center text-primary">
             <h3 className="text-lg font-semibold mb-2 md:mb-4">
-              starter naslov
+              INSTITUT LIRA
             </h3>
 
-            <p className=" font-bold ">starter poruka</p>
+            <p className=" font-bold ">Zaštita na radu</p>
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-center text-center gap-2 md:gap-10 border-t-[1px] border-cool-green mt-10 pt-5">
-          <p>&copy; 2025 _________. Sva prava zadržana.</p>
+        <div className="flex flex-col md:flex-row justify-center text-center gap-2 md:gap-10 border-t-[1px] border-primary mt-10 pt-5">
+          <p>&copy; 2025 INSTITUT LIRA DOO. Sva prava zadržana.</p>
           <a href="https://www.manikamwebsolutions.com/" target="_blank">
             izrada sajta:{" "}
             <span className="font-bold text-primary"> ManikamWebSolutions</span>
