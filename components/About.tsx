@@ -8,7 +8,8 @@ const About = () => {
       <p className=" first-letter:pl-6">
         Privredno društvo za bezbednost i zdravlje na radu, zaštitu životne
         sredine, žaštitu od požara, istraživanje, projektovanje i obrazovanje
-        INSTITUT LIRA DOO Niš, osnovano je 03.09.2014.godine u Nišu.
+        <span className="font-bold text-primary"> INSTITUT LIRA DOO Niš</span> ,
+        osnovano je 03.09.2014.godine u Nišu.
       </p>{" "}
       <p className=" first-letter:pl-6">
         {" "}

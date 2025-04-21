@@ -30,7 +30,7 @@ const Cards2Kosina = ({
 export default Cards2Kosina;
 
 const OneCard = ({ item }: { item: Cards2Data }) => {
-  const IconComponent = item.icon;
+  // const IconComponent = item.icon;
 
   return (
     <Card className="h-full relative overflow-hidden py-5 ">
