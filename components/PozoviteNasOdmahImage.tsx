@@ -18,8 +18,8 @@ const PozoviteNasOdmah = () => {
         <div className="flex flex-col gap-6 text-center md:text-left">
           <div>
             <h2 className=" text-xl md:text-3xl text-white">
-              Kontaktirajte nas ukoliko želite besplatnu procenu, savet ili
-              ponudu
+              Kontaktirajte nas – naši stručnjaci su spremni da odgovore na sva
+              vaša pitanja i pruže efikasna rešenja.
             </h2>
           </div>
           <a href="tel:+381659480700">

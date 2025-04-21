@@ -226,6 +226,15 @@ export default function Contact() {
           referrerPolicy="no-referrer-when-downgrade"
           className="w-full"
         ></iframe>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38076.31940154079!2d20.38963278418654!3d44.82076254355468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a656fa02be3df%3A0x2c85906f1849c246!2zQnVsZXZhciBNaWhhamxhIFB1cGluYSAxMNCWLCDQndC-0LLQuCDQkdC10L7Qs9GA0LDQtA!5e0!3m2!1sen!2srs!4v1745263999426!5m2!1sen!2srs"
+          width="600"
+          height="450"
+          style={{ border: "0" }}
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          className="w-full"
+        ></iframe>
       </div>
     </div>
   );
