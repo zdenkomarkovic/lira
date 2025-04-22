@@ -5,7 +5,7 @@ import Image from "@/node_modules/next/image";
 import { useParams, notFound } from "@/node_modules/next/navigation";
 import React from "react";
 
-const page = () => {
+const Page = () => {
   const params = useParams();
   const id = typeof params.id === "string" ? parseInt(params.id) : 0;
   const service = pageData.find((c) => c.id === id);
@@ -41,4 +41,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
