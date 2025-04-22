@@ -9,10 +9,10 @@ import Image from "@/node_modules/next/image";
 const Cardlist = () => {
   return (
     <div className="">
-      <div className="container px-2 md:px-40 mx-auto py-7 md:py-12 space-y-10 border-t border-primary">
+      <div className="container px-4 md:px-40 mx-auto py-7 md:py-12 space-y-10 border-t border-primary">
         <h2 className="">Naš Tim</h2>
 
-        <div className=" flex flex-col gap-4 md:gap-4">
+        <div className=" flex flex-col gap-4 md:gap-4  overflow-hidden">
           {tim.map((item, index) => {
             return (
               <motion.div
