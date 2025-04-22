@@ -9,28 +9,7 @@ export const navList = [
   },
   {
     title: "Usluge",
-    list: [
-      {
-        title: "Bezbednost i zdravlje na radu",
-        link: "",
-      },
-      {
-        title: "Zaštita životne sredine",
-        link: "",
-      },
-      {
-        title: "Zaštita od požara",
-        link: "",
-      },
-      {
-        title: "Vanredne situacije",
-        link: "",
-      },
-      {
-        title: "Priprema dokumentacije iz radnih odnosa",
-        link: "",
-      },
-    ],
+    link: "/#usluge",
   },
   {
     title: "Kontakt",
@@ -67,18 +46,19 @@ export const workList = [
 ];
 
 export interface PageData {
+  id: number;
   image: string;
   title: string;
-  route: string;
   description: string[];
   text: string;
+  text2: string;
 }
 
 export const pageData: PageData[] = [
   {
+    id: 1,
     image: "/zastitanaradu.jpeg",
     title: "Bezbednost i zdravlje na radu",
-    route: "/zastitanaradu",
     description: [
       "Akt o proceni rizika na radnom mestu i u radnoj okolini",
       "Zakonom predviđen Obrazac br.6",
@@ -91,47 +71,61 @@ export const pageData: PageData[] = [
       "Upućuje zaposlene na lekarske preglede i organizuje polaganje za pružanje prve pomoći",
     ],
     text: "Lice za bezbednost i zdravlje na radu – savetnik/saradnik zastupa poslodavca pred inspekcijskim organima – inspekcija rada",
+    text2:
+      "Institut LIRA DOO pruža kompletnu podršku poslodavcima u ispunjavanju svih zakonskih obaveza iz oblasti bezbednosti i zdravlja na radu. Naš tim inženjera i savetnika osigurava da vaše poslovanje bude bezbedno, usklađeno sa propisima i efikasno organizovano. U okviru ove oblasti, izrađujemo i sprovodimo sledeće:",
   },
   {
+    id: 2,
     image: "/zastitazivotnesredine.jpg",
     title: "Zaštita životne sredine",
-    route: "/zastitazivotnesredine",
     description: [
       "Izrada Plana upravljanje otpadom",
       "Izrada zahteva za integrisanu dozvolu",
       "Izveštavanje agenciji o kretanju otpada (dnevni, nedeljni, mesečni i godišni izveštaj)",
     ],
-    text: "",
+    text: "Naš tim stručnjaka pruža podršku u identifikaciji obaveza, prikupljanju podataka, izradi dokumentacije i komunikaciji sa nadležnim institucijama. Zaštitimo životnu sredinu zajedno – stručno, odgovorno i savesno.",
+    text2:
+      "Institut LIRA DOO pruža stručne usluge u oblasti zaštite životne sredine u skladu sa važećim zakonima i propisima Republike Srbije. Naš cilj je da pomognemo pravnim licima da posluju odgovorno, održivo i u potpunoj zakonskoj usklađenosti. U okviru usluga zaštite životne sredine nudimo:",
   },
   {
+    id: 3,
     image: "/zastitaodpozara1.jpg",
     title: "Zaštita od požara",
-    route: "/zastitaodpozara",
     description: [
-      "Izrada Plana zaštite od požara",
-      "Izrada Pravilnika o zaštiti od požara",
-      "Izrada Programa obuke za zaposlene",
-      "Obuka zaposlenih iz zaštite od požara",
+      "Izradu Plana zaštite od požara",
+      "Izradu Pravilnika o zaštiti od požara",
+      "Izradu Programa obuke za zaposlene",
+      "Sprovođenje obuke zaposlenih iz oblasti zaštite od požara",
     ],
-    text: "",
+    text: "Naš stručni tim osigurava da svi dokumenti budu izrađeni pravovremeno, precizno i u skladu sa važećim propisima, uz punu podršku tokom inspekcijskih nadzora. Bezbednost je na prvom mestu – poverite nam svoju zaštitu od požara.",
+    text2:
+      "Institut LIRA DOO pruža sveobuhvatne usluge iz oblasti zaštite od požara, usklađene sa zakonodavstvom i pravilnicima Republike Srbije. Naš cilj je da poslodavcima omogućimo bezbedno radno okruženje i efikasnu prevenciju rizika od požara. U okviru ove oblasti obavljamo:",
   },
 
   {
+    id: 4,
     image: "/vanrednesituacije.jpg",
     title: "Vanredne situacije",
-    route: "/vanrednesituacije",
     description: [
-      "Izrada plana zaštite od udesa",
-      "Izrada plana od katastrofa",
+      "Izradu Plana zaštite od udesa",
+      "Izradu Plana zaštite i spasavanja od prirodnih i tehničko-tehnoloških katastrofa",
     ],
-    text: "",
+    text: "Planovi se izrađuju u skladu sa vrstom delatnosti klijenta, specifičnostima lokacije i zakonskim zahtevima, a sadrže procenu rizika, plan mera, način evakuacije i koordinaciju sa nadležnim službama. Budite spremni – pravilno planiranje spašava živote i imovinu.",
+    text2:
+      "U skladu sa zakonskim obavezama i standardima, Institut LIRA DOO pruža usluge planiranja i organizovanja sistema zaštite i spasavanja u slučaju vanrednih situacija. Pravna lica su u obavezi da preduzmu sve mere za zaštitu života, zdravlja ljudi, imovine i životne sredine u vanrednim okolnostima. Naše usluge obuhvataju:",
   },
   {
+    id: 5,
     image: "/pripremadokumentacije.jpg",
     title: "Priprema dokumentacije iz radnih odnosa",
-    route: "/pripremadokumentacije",
-    description: ["Izrada odluka,", "Izrada Rešenja", "Sistematizacija"],
-    text: "",
+    description: [
+      "Izradu odluka,",
+      "Izradu rešenja",
+      "Izradu akta o sistematizaciji",
+    ],
+    text: "Naš tim obezbeđuje usklađenost sa važećim zakonodavstvom, zaštitu interesa poslodavca i jasnoću u komunikaciji sa zaposlenima. Uredna dokumentacija – temelj svakog uspešnog kolektiva.",
+    text2:
+      "Institut LIRA DOO nudi podršku u pripremi kompletne dokumentacije iz oblasti radnih odnosa, u skladu sa Zakonom o radu i drugim relevantnim propisima. Kvalitetna i pravovremena dokumentacija ključna je za zakonito poslovanje i stabilne odnose sa zaposlenima. Usluge obuhvataju:",
   },
 ];
 
@@ -191,26 +185,26 @@ export const cards1Data: Cards1Data[] = [
   {
     id: 1,
     icon: GiWeight,
-    title: "Iskustvo i profesionalizam",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
+    title: "Naša uloga",
+    text: "Institut LIRA pruža stručnu i kontinuiranu podršku poslodavcima u cilju ispunjavanja svih zakonskih obaveza u oblasti bezbednosti i zdravlja na radu.",
   },
   {
     id: 2,
     icon: GiWeight,
-    title: "Iskustvo i profesionalizam",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
+    title: "Uskladjeno sa zakonom",
+    text: "Svi dokumenti i usluge se izrađuju u skladu sa Zakonom o bezbednosti i zdravlju na radu („Sl. glasnik RS“, br. 101/2005, 91/2015 i 113/2017).",
   },
   {
     id: 3,
     icon: GiWeight,
-    title: "Iskustvo i profesionalizam",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
+    title: "Vaši benefiti",
+    text: "Uz naše stručno vođenje, smanjujete rizike od povreda na radu, kazni i zastoja u poslovanju.",
   },
   {
     id: 4,
     icon: GiWeight,
-    title: "Srbija i inostranstvo",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
+    title: "Podrška klijentima",
+    text: "Naš tim pruža i stalno savetovanje, izradu internih akata, kao i edukaciju zaposlenih u skladu sa specifičnostima vašeg radnog procesa.",
   },
 ];
 

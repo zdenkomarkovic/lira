@@ -13,7 +13,11 @@ const CardsList = () => {
         {pageData.map((card, index) => {
           if (index < 3) {
             return (
-              <Link key={index} href={card.route} className="col-span-2">
+              <Link
+                key={index}
+                href={`/usluge/${card.id}`}
+                className="col-span-2"
+              >
                 <Card data={card} />
               </Link>
             );
@@ -22,7 +26,11 @@ const CardsList = () => {
             return (
               <>
                 <div className="hidden md:block"></div>
-                <Link key={index} href={card.route} className="col-span-2">
+                <Link
+                  key={index}
+                  href={`/usluge/${card.id}`}
+                  className="col-span-2"
+                >
                   <Card data={card} />
                 </Link>
               </>
@@ -31,7 +39,11 @@ const CardsList = () => {
           if (index > 3) {
             return (
               <>
-                <Link key={index} href={card.route} className="col-span-2">
+                <Link
+                  key={index}
+                  href={`/usluge/${card.id}`}
+                  className="col-span-2"
+                >
                   <Card data={card} />
                 </Link>
                 <div className="hidden md:block"></div>
