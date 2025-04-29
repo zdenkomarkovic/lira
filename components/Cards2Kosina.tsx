@@ -42,14 +42,11 @@ const OneCard = ({ item }: { item: Cards2Data }) => {
         <polygon points="0,0 256,0 192,160 0,160" fill="#f5f5f5" />
       </svg>
 
-      <CardContent
-        className="relative z-10 flex gap-3 items-center justify-start
-      "
-      >
+      <CardContent className="relative ">
         {/* <div className="text-3xl md:text-4xl text-primary">
           <IconComponent className="" />
         </div> */}
-        <p className=" text-left text-primary">{item.title}</p>
+        <p className=" text-center text-primary">{item.title}</p>
       </CardContent>
     </Card>
   );

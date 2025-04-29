@@ -18,7 +18,7 @@ const Page = () => {
         <h1 className="text-primary text-3xl md:text-6xl font-bold text-center">
           {service.title}
         </h1>
-        <p>{service.text2}</p>
+        <p className=" text-center">{service.text2}</p>
         <div className="flex gap-12 flex-col md:flex-row items-center justify-around">
           {" "}
           <div>
@@ -34,7 +34,7 @@ const Page = () => {
             className="w-full md:w-1/2 aspect-[3/2] object-cover"
           />
         </div>
-        <p>{service.text}</p>
+        <p className=" text-center">{service.text}</p>
         <Cards1 title={"Institut Lira zaštita na radu"} data={cards1Data} />
       </div>
     </div>
