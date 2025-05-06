@@ -7,7 +7,7 @@ import Image from "@/node_modules/next/image";
 const CardsList = () => {
   return (
     <div className="container px-2 md:px-40 mx-auto py-7 md:py-12 border-t border-primary space-y-5 md:space-y-10">
-      <h2 className="">Šta to mi radimo za vas?</h2>
+      <h2 className="">USLUGE</h2>
 
       <div className=" grid md:grid-cols-6 gap-6 md:items-strech">
         {pageData.map((card, index) => {
@@ -78,7 +78,7 @@ const Card = ({ data }: { data: PageData }) => {
         className="w-full aspect-[4/3] object-cover"
       />
       <div className="p-3 flex flex-col justify-between grow">
-        <h3 className="text-primary py-2 font-bold text-2xl md:text-3xl">
+        <h3 className="text-primary py-2 font-bold text-xl md:text-2xl">
           {data.title}
         </h3>
         <p className="text-right">saznaj više...</p>

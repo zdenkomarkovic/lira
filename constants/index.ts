@@ -1,6 +1,9 @@
+import image from "@/node_modules/next/image";
+import { title } from "process";
 import { IconType } from "react-icons";
 import { GiWeight } from "react-icons/gi";
 import { LuTimerReset } from "react-icons/lu";
+import { text } from "stream/consumers";
 
 export const navList = [
   {
@@ -60,19 +63,23 @@ export const pageData: PageData[] = [
     image: "/zastitanaradu.jpeg",
     title: "Bezbednost i zdravlje na radu",
     description: [
-      "Akt o proceni rizika na radnom mestu i u radnoj okolini",
-      "Zakonom predviđen Obrazac br.6",
-      "Program, Pravilnik, Evidencije o bezbednosti i zdravlja na radu 1-11 ",
-      "Obuka za bezbedan i zdrav rad kod zasnivanja radnog odnosa, premeštaja na druge poslove, kod promene tehnologije ili radnog procesa",
-      "Prati primenu mera bezbednosti i zdravlja na radu kod pravnog lica",
-      "Druga dokumenta predviđena Zakonom",
+      "Izrada Akta o proceni rizika na radnom mestu i u radnoj sredini",
+      "Izrada zakonom predviđen Obrazac br. 6",
+      "Izrada Programa obuke za bezbedan i zdrav rad",
+      "Izrada Pravilnika o bzbednosti i zdravlju na radu",
+      "Izrada Evidencije o bezbednosti i zdravlja na radu 1-11",
+      "Vrši obuku zaposlenih za bezbedan i zdrav rad",
+      "Izrađuje uputstva za bezbedan i zdrav rad",
+      "Prati primenu mera bezbednosti i zdravlja na radu kod pravnog lica, i druga dokumenta predviđena Zakonom",
       "Organizuje preventivne preglede opreme za rad",
-      "Organizuje preglede električnih instalacija i uslova radne sredine",
-      "Upućuje zaposlene na lekarske preglede i organizuje polaganje za pružanje prve pomoći",
+      "Organizuje pregled i proveru električnih i gromobranskih instalacija i uslova radne sredine u zimskom i letnjem periodu",
+      "Organizuje preventivne i periodične lekarske preglede za zaposlene – izrada uputa",
+      "Organizuje osposobljavanje zaposlenih za pružanje prve pomoći",
+      "Koordinira i sarađuje sa medicinom rada u vezi mišljenja za radna mesta sa povećanim rizikom",
     ],
-    text: "Lice za bezbednost i zdravlje na radu – savetnik/saradnik zastupa poslodavca pred inspekcijskim organima – inspekcija rada",
+    text: "Savetnik/saradnik za bezbednost i zdravlje na radu zastupa poslodavca pred inspekcijskim organima – inspekcija rada",
     text2:
-      "Institut LIRA DOO pruža kompletnu podršku poslodavcima u ispunjavanju svih zakonskih obaveza iz oblasti bezbednosti i zdravlja na radu. Naš tim inženjera i savetnika osigurava da vaše poslovanje bude bezbedno, usklađeno sa propisima i efikasno organizovano. U okviru ove oblasti, izrađujemo i sprovodimo sledeće:",
+      "INSTITUT LIRA DOO pruža kompletnu podršku poslodavcima u ispunjavanju svih zakonskih obaveza iz oblasti bezbednosti i zdravlja na radu. Naš tim stručnjaka brine da vaše poslovanje bude efikasno organizovano i u skladu sa propisima. U okviru ove oblasti, izrađujemo i sprovodimo sledeće:",
   },
   {
     id: 2,
@@ -80,12 +87,13 @@ export const pageData: PageData[] = [
     title: "Zaštita životne sredine",
     description: [
       "Izrada Plana upravljanje otpadom",
-      "Izrada zahteva za integrisanu dozvolu",
-      "Izveštavanje agenciji o kretanju otpada (dnevni, nedeljni, mesečni i godišni izveštaj)",
+      "Izrada Zahteva za integrisanu dozvolu (IPPC)",
+      "Izveštavanje za Agenciju zaštite životne sredine (izrada godišnjih i dnevnih izveštaja o upravljanju otpada, godišnjih izveštaja o emisijama u vazduh, vodu i zemljište, godišnjih izveštaja o proizvodima koji postaju posebni tokovi otpada)",
+      "Konsultantske usluge u oblasti zaštite životne sredine",
     ],
     text: "Naš tim stručnjaka pruža podršku u identifikaciji obaveza, prikupljanju podataka, izradi dokumentacije i komunikaciji sa nadležnim institucijama. Zaštitimo životnu sredinu zajedno – stručno, odgovorno i savesno.",
     text2:
-      "Institut LIRA DOO pruža stručne usluge u oblasti zaštite životne sredine u skladu sa važećim zakonima i propisima Republike Srbije. Naš cilj je da pomognemo pravnim licima da posluju odgovorno, održivo i u potpunoj zakonskoj usklađenosti. U okviru usluga zaštite životne sredine nudimo:",
+      "INSTITUT LIRA DOO pruža stručne usluge u oblasti zaštite životne sredine u skladu sa važećim zakonima i propisima Republike Srbije. Naš cilj je da pomognemo pravnim licima da posluju odgovorno, održivo a u skladu sa zakonskom regulativom. U okviru usluga zaštite životne sredine nudimo:",
   },
   {
     id: 3,
@@ -93,13 +101,16 @@ export const pageData: PageData[] = [
     title: "Zaštita od požara",
     description: [
       "Izradu Plana zaštite od požara",
-      "Izradu Pravilnika o zaštiti od požara",
-      "Izradu Programa obuke za zaposlene",
-      "Sprovođenje obuke zaposlenih iz oblasti zaštite od požara",
+      "Izradu Pravilnika zaštite od požara",
+      "Izradu Programa obuke za zaposlene iz oblasti zop",
+      "Obuka zaposlenih iz zaštite od požara",
+      "Izrade planova evakuacije",
+      "Sprovođenje vežbe evakuacije",
+      "Savetovanje u vezi ispravnosti i investicijama oko unapređenja zaštite od požara",
     ],
     text: "Naš stručni tim osigurava da svi dokumenti budu izrađeni pravovremeno, precizno i u skladu sa važećim propisima, uz punu podršku tokom inspekcijskih nadzora. Bezbednost je na prvom mestu – poverite nam svoju zaštitu od požara.",
     text2:
-      "Institut LIRA DOO pruža sveobuhvatne usluge iz oblasti zaštite od požara, usklađene sa zakonodavstvom i pravilnicima Republike Srbije. Naš cilj je da poslodavcima omogućimo bezbedno radno okruženje i efikasnu prevenciju rizika od požara. U okviru ove oblasti obavljamo:",
+      "INSTITUT LIRA DOO pruža sveobuhvatne usluge iz oblasti zaštite od požara, usklađene sa zakonodavstvom i pravilnicima Republike Srbije. Naš cilj je da poslodavcima omogućimo bezbedno radno okruženje i efikasnu prevenciju rizika od požara. U okviru ove oblasti obavljamo:",
   },
 
   {
@@ -107,25 +118,29 @@ export const pageData: PageData[] = [
     image: "/vanrednesituacije.jpg",
     title: "Vanredne situacije",
     description: [
+      "Izrada Procene rizika od katastrofa",
+      "Izrada Plana zaštite i spasavanja",
       "Izradu Plana zaštite od udesa",
-      "Izradu Plana zaštite i spasavanja od prirodnih i tehničko-tehnoloških katastrofa",
     ],
-    text: "Planovi se izrađuju u skladu sa vrstom delatnosti klijenta, specifičnostima lokacije i zakonskim zahtevima, a sadrže procenu rizika, plan mera, način evakuacije i koordinaciju sa nadležnim službama. Budite spremni – pravilno planiranje spašava živote i imovinu.",
+    text: "Procena rizika predstavlja ključni dokument kojim se identifikuju potencijalne opasnosti (poput požara, poplava, zemljotresa hemijskih akcidenata i dr.) koje mogu ugroziti ljude, imovinu i životnu sredinu. Na osnovu te procene, izrađuje se Plan zaštite i spasavanja koji definiše konkretne mere i postupke za efikasno reagovanje u vanrednim situacijama. Ovi dokumenti su zakonska obaveza za jedinice lokalne samouprave, subjekte od posebnog značaja za zaštitu i spasavanje, privredna društva, zdravstvene ustanove (izuzev apoteka), predškolske i školske ustanove i fakultete, za sve objekte u kojima borave deca, odnosno objekte u kojima se odvija nastava, ustanove socijalne zaštite za objekte u kojima borave korisnici.",
     text2:
-      "U skladu sa zakonskim obavezama i standardima, Institut LIRA DOO pruža usluge planiranja i organizovanja sistema zaštite i spasavanja u slučaju vanrednih situacija. Pravna lica su u obavezi da preduzmu sve mere za zaštitu života, zdravlja ljudi, imovine i životne sredine u vanrednim okolnostima. Naše usluge obuhvataju:",
+      "U skladu sa zakonskim obavezama i standardima, INSTITUT LIRA DOO pruža usluge planiranja i organizovanja sistema zaštite i spasavanja u slučaju vanrednih situacija. Naše usluge obuhvataju:",
   },
   {
     id: 5,
     image: "/pripremadokumentacije.jpg",
-    title: "Priprema dokumentacije iz radnih odnosa",
+    title: "Priprema dokumentacije iz oblasti radnih odnosa ",
     description: [
-      "Izradu odluka,",
-      "Izradu rešenja",
-      "Izradu akta o sistematizaciji",
+      "Izrada Odluka o radnom vremenu",
+      "Izrada Odluka o dnevnom, nedeljnom, mesečnom i godišnjem odmoru",
+      "Izrada Rešenja o godišnjem odmoru",
+      "Pomoć pri izradi / izrada sistematizacije",
+      "Izrada Pravilnika o postupku unutrašnjeg uzbunjivanja",
+      "Izrada Obaveštenja o mobingu, zabrani pušenja, zlostavljanja na radnom mestu",
     ],
     text: "Naš tim obezbeđuje usklađenost sa važećim zakonodavstvom, zaštitu interesa poslodavca i jasnoću u komunikaciji sa zaposlenima. Uredna dokumentacija – temelj svakog uspešnog kolektiva.",
     text2:
-      "Institut LIRA DOO nudi podršku u pripremi kompletne dokumentacije iz oblasti radnih odnosa, u skladu sa Zakonom o radu i drugim relevantnim propisima. Kvalitetna i pravovremena dokumentacija ključna je za zakonito poslovanje i stabilne odnose sa zaposlenima. Usluge obuhvataju:",
+      "INSTITUT LIRA DOO nudi podršku u pripremi kompletne dokumentacije iz oblasti radnih odnosa, u skladu sa Zakonom o radu i drugim relevantnim propisima. Kvalitetna i pravovremena dokumentacija ključna je za zakonito poslovanje i stabilne odnose sa zaposlenima. Usluge obuhvataju:",
   },
 ];
 

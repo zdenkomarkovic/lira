@@ -1,5 +1,4 @@
 import About from "@/components/About";
-import Cardlist from "@/components/Cardlist";
 import Cards2Kosina from "@/components/Cards2Kosina";
 import CardsList from "@/components/CardsList";
 import HeroOneImg from "@/components/HeroOneImg";
@@ -16,7 +15,7 @@ export default function Home() {
       <CardsList />
       <Cards2Kosina title={"Zašto izabrati nas?"} data={cards2Data} />
       <Statistika />
-      <Cardlist />
+      {/* <Cardlist /> */}
       <PozoviteNasOdmahImage />
       <References />
     </div>

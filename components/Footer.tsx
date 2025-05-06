@@ -23,7 +23,7 @@ export default function Footer() {
 
               <li>
                 <Link
-                  href="/usluge"
+                  href="/#usluge"
                   className="text-muted-foreground hover:text-primary"
                 >
                   Usluge

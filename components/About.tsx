@@ -12,30 +12,31 @@ const About = () => {
         osnovano je 03.09.2014.godine u Nišu.
       </p>{" "}
       <p className="">
-        {" "}
-        INSTITUT LIRA DOO Niš, čine 14 zaposlena u stalnom radnom odnosu na
-        neodređeno vreme, saradnike na stručnoj praksi - usavršavanju,
-        pripravnke, a takođe ima i nekolicinu ugovora o poslovno tehničkim
-        saradnjama sa eminentnim kućama iz oblasti Bezbednosti i zdravlja na
-        radu, zaštite životne sredine, zaštite od požara kao i sa medicinom
-        rada.
+        INSTITUT LIRA DOO Niš čini dinamični tim od 14 zaposlenih u stalnom
+        radnom odnosu na neodređeno vreme, uz dodatnu podršku saradnika na
+        stručnoj praksi, usavršavanju i pripravničkom stažu. Pored toga,
+        Institut ostvaruje poslovno tehničku saradnju sa renomiranim kompanijama
+        iz oblasti bezbednosti i zdravlja na radu, zaštite životne sredine,
+        zaštite od požara i medicine rada, čime dodatno osnažujemo kvalitet i
+        obim naših usluga.
       </p>
       <p className="">
-        INSTITUT LIRA DOO Niš, posluje od 2014.godine samostalno, obavlja
-        poslove na celoj teritoriji Republike Srbije. Poseduje veoma stručni
-        kadar, inženjere zaštite na radu, mašinske inženjere, tehnologe,
-        ekonomiste, građevinske inženjere sa velikim iskustvom i naravno dobrim
-        rezultatima.
+        INSTITUT LIRA DOO Niš od 2014. godine uspešno posluje na celoj
+        teritoriji Republike Srbije. Naš stručni kadar različitih profila čine
+        inženjeri zaštite na radu, mašinski inženjeri, tehnolozi, ekonomisti,
+        građevinski inženjeri, koji poseduju bogato iskustvo i stručnost, što
+        garantuje visoke standarde i kvalitetne rezultate.
       </p>
       <p className="">
-        Posedujemo licencu od strane Ministarstva za rad, zapošljavanje, boračka
-        i socijalna pitanja br. 164-02-00117/2024-01od 03.09.2024.{" "}
+        INSTITUT LIRA DOO Niš poseduje licencu od strane Ministarstva za rad,
+        zapošljavanje, boračka i socijalna pitanja br. 164-02-00117/2024-01 od
+        03.09.2024.
       </p>
       <p className="">
         Sedište instituta se nalazi u Nišu na adresi Todora Milovanovića 9,
-        MB:21042412; PIB:108655943; U okviru Instituta posluju Ogranak Beograd i
-        Ogranak Novi Sad.
+        MB:21042412; PIB:108655943;
       </p>
+      <p>U okviru Instituta posluju Ogranak Beograd i Ogranak Novi Sad.</p>
     </div>
   );
 };

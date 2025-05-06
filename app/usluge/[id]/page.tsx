@@ -18,6 +18,7 @@ const Page = () => {
         <h1 className="text-primary text-3xl md:text-6xl font-bold text-center">
           {service.title}
         </h1>
+
         <p className=" text-center">{service.text2}</p>
         <div className="flex gap-12 flex-col md:flex-row items-center justify-around">
           {" "}
