@@ -207,13 +207,13 @@ export const cards1Data: Cards1Data[] = [
     id: 2,
     icon: GiWeight,
     title: "Uskladjeno sa zakonom",
-    text: "Svi dokumenti i usluge se izrađuju u skladu sa Zakonom o bezbednosti i zdravlju na radu („Sl. glasnik RS“, br. 101/2005, 91/2015 i 113/2017).",
+    text: "Svi dokumenti i usluge se izrađuju u skladu sa Zakonom o bezbednosti i zdravlju na radu („Sl. glasnik RS“, br. 35/2023).",
   },
   {
     id: 3,
     icon: GiWeight,
     title: "Vaši benefiti",
-    text: "Uz naše stručno vođenje, smanjujete rizike od povreda na radu, kazni i zastoja u poslovanju.",
+    text: "Uz naše stručno vođenje, smanjujete rizike od povreda na radu i zastoja u poslovanju.",
   },
   {
     id: 4,

@@ -59,7 +59,7 @@ export default function Contact() {
     <div className="">
       <div className="container mx-auto pt-28 pb-16 px-6 md:px-8 md:py-32 space-y-12 md:space-y-24">
         <h1 className="text-2xl md:text-5xl pl-2 md:px-32">
-          Institut Lira Niš - zaštita na radu
+          Institut Lira Doo Niš - zaštita na radu
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
           <div className=" mx-2 md:mx-20">
@@ -70,7 +70,7 @@ export default function Contact() {
               >
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
                   <FaPhone className="text-[20px] lg:text-[30px]" />
-                  +38162 480 690
+                  +381 62 480 690
                 </button>
               </a>
               <a
@@ -88,7 +88,7 @@ export default function Contact() {
               >
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
                   <FaViber className="text-[28px] lg:text-[35px] p-1 bg-purple-600 text-white rounded-xl rounde" />{" "}
-                  +38162 480 690
+                  +381 62 480 690
                 </button>
               </a>
 
@@ -118,7 +118,7 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 className="py-[7px] flex border-b-[1px] border-primary "
               >
-                <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
+                <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center text-left">
                   {" "}
                   <Facebook className=" w-[60px] h-[50px]" />
                   Privredno drustvo za bezbednost i zdravlje na radu Institut

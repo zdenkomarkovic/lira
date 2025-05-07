@@ -7,8 +7,8 @@ const About = () => {
     <div className="container px-2 md:px-4 mx-auto py-7 md:py-12 space-y-5 text-center">
       <p className="">
         Privredno društvo za bezbednost i zdravlje na radu, zaštitu životne
-        sredine, žaštitu od požara, istraživanje, projektovanje i obrazovanje
-        <span className="font-bold text-primary"> INSTITUT LIRA DOO Niš</span> ,
+        sredine, zaštitu od požara, istraživanje, projektovanje i obrazovanje
+        <span className="font-bold text-primary"> INSTITUT LIRA DOO Niš</span>,
         osnovano je 03.09.2014.godine u Nišu.
       </p>{" "}
       <p className="">
