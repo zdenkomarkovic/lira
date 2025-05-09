@@ -34,6 +34,7 @@ export const metadata: Metadata = {
     "inspekcija rada zastupanje",
     "preventivni pregledi opreme",
     "zaštita radne okoline",
+    "zaštita na radu nis",
   ],
   alternates: {
     canonical: "https://www.zastitanaradu.rs",
