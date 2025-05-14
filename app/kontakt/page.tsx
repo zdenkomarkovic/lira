@@ -57,13 +57,13 @@ export default function Contact() {
   };
   return (
     <div className="">
-      <div className="container mx-auto pt-28 pb-16 px-6 md:px-8 md:py-32 space-y-12 md:space-y-24">
+      <div className="container mx-auto pt-28 pb-16 px-4 md:px-8 md:py-32 space-y-12 md:space-y-24">
         <h1 className="text-2xl md:text-5xl pl-2 md:px-32">
           Institut Lira Doo Niš - zaštita na radu
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
           <div className="">
-            <div className="space-y-3 md:space-y-4 text-sm md:text-xl">
+            <div className=" md:space-y-4 text-sm md:text-xl">
               <a
                 href="tel:+38162480690"
                 className="py-[7px] flex border-b-[1px] border-primary"
@@ -106,7 +106,7 @@ export default function Contact() {
                 className="py-[7px] flex border-b-[1px] border-primary"
               >
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
-                  <Mail className=" w-[28px] h-[28px]" />{" "}
+                  <Mail className=" min-w-[28px] min-h-[28px]" />{" "}
                   institutlirabeograd@gmail.com{" "}
                   <span className="text-primary">Ogranak Beograd</span>
                 </button>
@@ -116,7 +116,7 @@ export default function Contact() {
                 className="py-[7px] flex border-b-[1px] border-primary"
               >
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
-                  <Mail className=" w-[28px] h-[28px]" />{" "}
+                  <Mail className=" min-w-[28px] min-h-[28px]" />{" "}
                   institutliranovisad@gmail.com{" "}
                   <span className="text-primary">Ogranak Novi Sad</span>
                 </button>
@@ -141,7 +141,7 @@ export default function Contact() {
               >
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center text-left">
                   {" "}
-                  <Facebook className=" w-[60px] h-[50px]" />
+                  <Facebook className=" w-[50px] h-[40px]" />
                   Privredno drustvo za bezbednost i zdravlje na radu Institut
                   Lira Doo Nis
                 </button>
