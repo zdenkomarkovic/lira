@@ -62,7 +62,7 @@ export default function Contact() {
           Institut Lira Doo Niš - zaštita na radu
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
-          <div className=" mx-2 md:mx-20">
+          <div className="">
             <div className="space-y-3 md:space-y-4 text-sm md:text-xl">
               <a
                 href="tel:+38162480690"
@@ -98,6 +98,7 @@ export default function Contact() {
               >
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
                   <Mail className=" w-[28px] h-[28px]" /> institutlira@gmail.com{" "}
+                  <span className="text-primary">Sediste Nis</span>
                 </button>
               </a>
               <a
@@ -107,6 +108,7 @@ export default function Contact() {
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
                   <Mail className=" w-[28px] h-[28px]" />{" "}
                   institutlirabeograd@gmail.com{" "}
+                  <span className="text-primary">Ogranak Beograd</span>
                 </button>
               </a>
               <a
@@ -115,7 +117,8 @@ export default function Contact() {
               >
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
                   <Mail className=" w-[28px] h-[28px]" />{" "}
-                  institutliranovisad@gmail.com
+                  institutliranovisad@gmail.com{" "}
+                  <span className="text-primary">Ogranak Novi Sad</span>
                 </button>
               </a>
               <a
@@ -144,7 +147,6 @@ export default function Contact() {
                 </button>
               </a>
             </div>
-            <div className="pl-4 md:pl-7 pt-4 lg:pt-12"></div>
           </div>
           <div className="mx-2 md:mx-20 ">
             <Form {...form}>
