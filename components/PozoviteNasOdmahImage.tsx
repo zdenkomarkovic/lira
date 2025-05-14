@@ -22,7 +22,7 @@ const PozoviteNasOdmah = () => {
               vaša pitanja i pruže efikasna rešenja.
             </h2>
           </div>
-          <a href="tel:+381659480700">
+          <a href="tel:+38162480690">
             <motion.button
               whileHover={{ translateY: "-5px" }}
               whileTap={{ scale: 0.95 }}

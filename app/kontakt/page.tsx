@@ -63,7 +63,7 @@ export default function Contact() {
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
           <div className=" mx-2 md:mx-20">
-            <div className="space-y-3 md:space-y-10 text-lg md:text-2xl">
+            <div className="space-y-3 md:space-y-4 text-sm md:text-xl">
               <a
                 href="tel:+38162480690"
                 className="py-[7px] flex border-b-[1px] border-primary"
@@ -97,7 +97,25 @@ export default function Contact() {
                 className="py-[7px] flex border-b-[1px] border-primary"
               >
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
-                  <Mail className=" w-[28px] h-[28px]" /> institutlira@gmail.com
+                  <Mail className=" w-[28px] h-[28px]" /> institutlira@gmail.com{" "}
+                </button>
+              </a>
+              <a
+                href="mailto:institutlirabeograd@gmail.com"
+                className="py-[7px] flex border-b-[1px] border-primary"
+              >
+                <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
+                  <Mail className=" w-[28px] h-[28px]" />{" "}
+                  institutlirabeograd@gmail.com{" "}
+                </button>
+              </a>
+              <a
+                href="mailto:institutliranovisad@gmail.com"
+                className="py-[7px] flex border-b-[1px] border-primary"
+              >
+                <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
+                  <Mail className=" w-[28px] h-[28px]" />{" "}
+                  institutliranovisad@gmail.com
                 </button>
               </a>
               <a

@@ -19,11 +19,14 @@ const Hero = () => {
 
       <div className="relative container px-2 md:px-4 mx-auto text-center flex flex-col gap-6 items-center justify-center z-[1] ">
         <h1 className="text-primary text-2xl md:text-7xl font-bold px-4">
-          INSTITUT LIRA NIŠ
+          INSTITUT LIRA DOO NIŠ
         </h1>
         <h2 className="text-muted font-medium text-md md:text-4xl">
           Privredno društvo za bezbednost i zdravlje na radu, zaštitu životne
           sredine, zaštitu od požara, istraživanje, projektovanje i obrazovanje
+          sa sedistem u <span className="text-primary"> Nišu</span> i ograncima
+          u<span className="text-primary"> Beogradu</span> i
+          <span className="text-primary"> Novom Sadu</span>
         </h2>
         <div className="flex flex-col gap-4 md:flex-row">
           <Link href="/#usluge">

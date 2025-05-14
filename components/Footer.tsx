@@ -41,7 +41,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="space-y-3 pb-5 md:pb-0">
+          <div className="space-y-1 pb-5 md:pb-0">
             <div>
               {" "}
               <a href="tel:+38162480690">
@@ -53,7 +53,21 @@ export default function Footer() {
             <div>
               <a href="mailto:institutlira@gmail.com" target={"_blank"}>
                 <p className="text-muted-foreground text-wrap  hover:text-primary">
-                  Email: institutlira@gmail.com
+                  Niš: institutlira@gmail.com
+                </p>
+              </a>
+            </div>
+            <div>
+              <a href="mailto:institutlirabeograd@gmail.com" target={"_blank"}>
+                <p className="text-muted-foreground text-wrap  hover:text-primary">
+                  Beograd: institutlirabeograd@gmail.com
+                </p>
+              </a>
+            </div>
+            <div>
+              <a href="mailto:institutliranovisad@gmail.com" target={"_blank"}>
+                <p className="text-muted-foreground text-wrap  hover:text-primary">
+                  Novi Sad: institutliranovisad@gmail.com
                 </p>
               </a>
             </div>

@@ -15,8 +15,7 @@ const About = () => {
         INSTITUT LIRA DOO Niš čini dinamični tim od 14 zaposlenih u stalnom
         radnom odnosu na neodređeno vreme, uz dodatnu podršku saradnika na
         stručnoj praksi, usavršavanju i pripravničkom stažu. Pored toga,
-        Institut ostvaruje poslovno tehničku saradnju sa renomiranim kompanijama
-        iz oblasti bezbednosti i zdravlja na radu, zaštite životne sredine,
+        Institut ostvaruje poslovno tehničku saradnju sa kompanijama iz oblasti
         zaštite od požara i medicine rada, čime dodatno osnažujemo kvalitet i
         obim naših usluga.
       </p>
