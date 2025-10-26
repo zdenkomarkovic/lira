@@ -21,7 +21,7 @@ const Licence2 = [
   "14 Licenca Nemanja Dojčinović - Vanredne.pdf",
 ];
 
-const page = () => {
+const Page = () => {
   const [selectedPdf, setSelectedPdf] = useState<string | null>(null);
 
   return (
@@ -107,4 +107,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
