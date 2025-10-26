@@ -11,6 +11,10 @@ export const navList = [
     link: "/",
   },
   {
+    title: "Licence",
+    link: "/licence",
+  },
+  {
     title: "Usluge",
     link: "/#usluge",
   },
@@ -316,7 +320,7 @@ export const cards2Data: Cards2Data[] = [
   {
     id: 3,
     icon: GiWeight,
-    title: "Iskustvo sa preko 200 firmi",
+    title: "Iskustvo sa preko 500 firmi",
     text: "",
   },
   {
@@ -428,6 +432,74 @@ export const reference: Reference[] = [
   {
     title: "CENTAR ZA SOCIJANI RAD SURDULICA",
     img: "/surdulica-logo.png",
+  },
+  {
+    title: "Batut",
+    img: "",
+  },
+  {
+    title: "Sud Vranje",
+    img: "",
+  },
+  {
+    title: "Sud Kuršumlija",
+    img: "",
+  },
+  {
+    title: "Sud Pirot",
+    img: "",
+  },
+  {
+    title: "Nataly spa",
+    img: "",
+  },
+  {
+    title: "Crystal light hotel",
+    img: "",
+  },
+  {
+    title: "Apotekarska ustanova Dona farm",
+    img: "",
+  },
+  {
+    title: "Akytec",
+    img: "",
+  },
+  {
+    title: "Hotel Rtanj Kopaonik",
+    img: "",
+  },
+  {
+    title: "Pčelica Niš",
+    img: "",
+  },
+  {
+    title: "Prvi Taxi",
+    img: "",
+  },
+  {
+    title: "Dom zdravlja Gadžin Han",
+    img: "",
+  },
+  {
+    title: "Dom zdravlja Sokobanja",
+    img: "",
+  },
+  {
+    title: "Eco trade",
+    img: "",
+  },
+  {
+    title: "Coming artificial intelligence engineering Doo Niš",
+    img: "",
+  },
+  {
+    title: "Fakultet primenjenih nauka Niš",
+    img: "",
+  },
+  {
+    title: "Fakultet za pravo, bezbednost i menadžment Konstantin Veliki Niš",
+    img: "",
   },
 ];
 

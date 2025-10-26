@@ -24,14 +24,16 @@ const References = () => {
                 whileTap={{ scale: 0.95 }}
                 className="flex flex-col justify-between bg-muted p-5 shadow-lg"
               >
-                <Image
-                  src={item.img}
-                  alt={"logo"}
-                  width={150}
-                  height={150}
-                  className=" mx-auto my-auto"
-                />
-                <p className="mt-8">{item.title}</p>
+                {item.img && (
+                  <Image
+                    src={item.img}
+                    alt={"logo"}
+                    width={150}
+                    height={150}
+                    className=" mx-auto my-auto"
+                  />
+                )}
+                <p className={item.img ? "mt-8" : ""}>{item.title}</p>
               </motion.div>
             );
           })}

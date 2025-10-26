@@ -23,8 +23,9 @@ const About = () => {
         INSTITUT LIRA DOO Niš od 2014. godine uspešno posluje na celoj
         teritoriji Republike Srbije. Naš stručni kadar različitih profila čine
         inženjeri zaštite na radu, mašinski inženjeri, tehnolozi, ekonomisti,
-        građevinski inženjeri, koji poseduju bogato iskustvo i stručnost, što
-        garantuje visoke standarde i kvalitetne rezultate.
+        građevinski inženjeri, koji poseduju bogato iskustvo i stručnost.
+        Stalnim učenjem i usavršavanjem pratimo savremene trendove i tehnologiju
+        što garantuje visoke standarde i rezultate.
       </p>
       <p className="">
         INSTITUT LIRA DOO Niš poseduje licencu od strane Ministarstva za rad,

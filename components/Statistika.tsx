@@ -18,13 +18,13 @@ const Statistika = () => {
         </div>
         <div>
           <p className="text-4xl md:text-5xl font-bold text-primary">
-            {inView && <CountUp end={200} duration={2} suffix="+" />}
+            {inView && <CountUp end={500} duration={2} suffix="+" />}
           </p>
           <p className="mt-2">Zadovoljnih klijenata</p>
         </div>
         <div>
           <p className="text-4xl md:text-5xl font-bold text-primary">
-            {inView && <CountUp end={500} duration={2} suffix="+" />}
+            {inView && <CountUp end={2000} duration={2} suffix="+" />}
           </p>
           <p className="mt-2">Dokumenata izrađeno</p>
         </div>
